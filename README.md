@@ -4,7 +4,7 @@ Integrating Feather icon set under Angular 20 framework.
 
 ## Live demo
 
-[Live demo](http://adena.dev)
+[Live demo](http://feather-angular.vercel.app/)
 
 ## Commands to make it compile
 
