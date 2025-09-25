@@ -1,0 +1,29 @@
+##
+# Angular
+##
+.angular/
+
+##
+# Build output
+##
+/dist/
+
+##
+# Dependencies
+##
+/node_modules/
+
+##
+# Test results
+##
+/coverage/
+
+##
+# Lockfiles
+##
+package-lock.json
+
+##
+# Misc
+##
+.DS_Store

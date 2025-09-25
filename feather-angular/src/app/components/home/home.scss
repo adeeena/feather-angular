@@ -1,0 +1,57 @@
+.the-only-content {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    line-height: 4rem;
+  }
+
+  ::ng-deep svg {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  a {
+    font-size: 2rem;
+  }
+
+  code {
+    display: block;
+    margin-top: 1rem;
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 801px) {
+  .content {
+    width: 35dvw;
+  }
+}
+
+@media (max-width: 800px) {
+  .the-only-content {
+    flex-direction: column;
+    height: auto; // Allow content to determine height
+  }
+}

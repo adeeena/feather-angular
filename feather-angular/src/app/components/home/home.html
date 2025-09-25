@@ -1,1 +1,31 @@
-<p>home works!</p>
+<div class="the-only-content">
+  <div class="template-driven content">
+    <span> Template-driven </span>
+
+    <i [data-feather]="'sunset'"></i>
+
+    <a target="_blank" href="https://feathericons.com/?query=sunset"> sunset </a>
+
+    <br />
+
+    <code>&lt;i [data-feather]="'sunset'"&gt;&lt;/i&gt;</code>
+  </div>
+
+  <div class="ts-driven content">
+    <span> JS-driven </span>
+
+    <i [data-feather]="icon()"></i>
+
+    <a target="_blank" href="https://feathericons.com/?query={{ icon() }}">
+      {{ icon() }}
+    </a>
+
+    <br />
+
+    <code>&lt;i [data-feather]="icon()"&gt;&lt;/i&gt;</code>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="https://adena.dev" target="_blank">adena.dev</a>
+</div>
