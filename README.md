@@ -1,6 +1,15 @@
 # feather-angular
 
-Integrating Feather icon set under Angular 20 framework.
+<p align="center">
+  <a href="https://angular.dev/">
+    <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular">
+  </a>
+  <a href="https://feathericons.com/">
+    <img src="https://img.shields.io/badge/Feather-Icons-black?style=for-the-badge&logo=feather&logoColor=white" alt="Feather Icons">
+  </a>
+</p>
+
+Integrating [Feather icon set](https://feathericons.com/) under [Angular](https://angular.dev/) 20 framework.
 
 ## Live demo
 
@@ -9,7 +18,9 @@ Integrating Feather icon set under Angular 20 framework.
 ## Commands to make it compile
 
 `npm install -g @angular/cli@latest`
+
 `npm i feather-icons`
+
 `npm i @types/feather-icons --save-dev`
 
 Then, in `angular.json`, add this section under `projects / architect / build / options`:
@@ -36,3 +47,9 @@ To do so, import the `FeatherIconDirective` to your `@Component` section.
 Then, you can use feather icons in your template:
 
 `<i [data-feather]="'sunset'"></i>`
+
+## Love it?
+
+Thank you! ❤️
+
+[You can back me for a nice cup of coffee.](https://ko-fi.com/adeeena)
